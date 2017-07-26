@@ -1,0 +1,892 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro",
+      "type": "com.govpro.config.GovproProperties"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.async",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Async getAsync() ",
+      "type": "com.govpro.config.GovproProperties$Async"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.cache",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache getCache() ",
+      "type": "com.govpro.config.GovproProperties$Cache"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache",
+      "name": "govpro.cache.ehcache",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Ehcache getEhcache() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Ehcache"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache",
+      "name": "govpro.cache.ehcache",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Ehcache getEhcache() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Ehcache"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache",
+      "name": "govpro.cache.hazelcast",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Hazelcast getHazelcast() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Hazelcast"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache",
+      "name": "govpro.cache.hazelcast",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Hazelcast getHazelcast() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Hazelcast"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache",
+      "name": "govpro.cache.infinispan",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Infinispan getInfinispan() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Infinispan"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache",
+      "name": "govpro.cache.infinispan",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Infinispan getInfinispan() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Infinispan"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.distributed",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Infinispan.Distributed getDistributed() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Infinispan$Distributed"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.distributed",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Infinispan.Distributed getDistributed() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Infinispan$Distributed"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.local",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Infinispan.Local getLocal() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Infinispan$Local"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.local",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Infinispan.Local getLocal() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Infinispan$Local"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.replicated",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Infinispan.Replicated getReplicated() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Infinispan$Replicated"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.replicated",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Cache.Infinispan.Replicated getReplicated() ",
+      "type": "com.govpro.config.GovproProperties$Cache$Infinispan$Replicated"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.gateway",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Gateway getGateway() ",
+      "type": "com.govpro.config.GovproProperties$Gateway"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway",
+      "name": "govpro.gateway.rate-limiting",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Gateway.RateLimiting getRateLimiting() ",
+      "type": "com.govpro.config.GovproProperties$Gateway$RateLimiting"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway",
+      "name": "govpro.gateway.rate-limiting",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Gateway.RateLimiting getRateLimiting() ",
+      "type": "com.govpro.config.GovproProperties$Gateway$RateLimiting"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.http",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Http getHttp() ",
+      "type": "com.govpro.config.GovproProperties$Http"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Http",
+      "name": "govpro.http.cache",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Http.Cache getCache() ",
+      "type": "com.govpro.config.GovproProperties$Http$Cache"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Http",
+      "name": "govpro.http.cache",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Http.Cache getCache() ",
+      "type": "com.govpro.config.GovproProperties$Http$Cache"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.logging",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Logging getLogging() ",
+      "type": "com.govpro.config.GovproProperties$Logging"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging",
+      "name": "govpro.logging.logstash",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Logging.Logstash getLogstash() ",
+      "type": "com.govpro.config.GovproProperties$Logging$Logstash"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging",
+      "name": "govpro.logging.logstash",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Logging.Logstash getLogstash() ",
+      "type": "com.govpro.config.GovproProperties$Logging$Logstash"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging",
+      "name": "govpro.logging.spectator-metrics",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Logging.SpectatorMetrics getSpectatorMetrics() ",
+      "type": "com.govpro.config.GovproProperties$Logging$SpectatorMetrics"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging",
+      "name": "govpro.logging.spectator-metrics",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Logging.SpectatorMetrics getSpectatorMetrics() ",
+      "type": "com.govpro.config.GovproProperties$Logging$SpectatorMetrics"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.mail",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Mail getMail() ",
+      "type": "com.govpro.config.GovproProperties$Mail"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.metrics",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics getMetrics() ",
+      "type": "com.govpro.config.GovproProperties$Metrics"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics",
+      "name": "govpro.metrics.graphite",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics.Graphite getGraphite() ",
+      "type": "com.govpro.config.GovproProperties$Metrics$Graphite"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics",
+      "name": "govpro.metrics.graphite",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics.Graphite getGraphite() ",
+      "type": "com.govpro.config.GovproProperties$Metrics$Graphite"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics",
+      "name": "govpro.metrics.jmx",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics.Jmx getJmx() ",
+      "type": "com.govpro.config.GovproProperties$Metrics$Jmx"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics",
+      "name": "govpro.metrics.jmx",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics.Jmx getJmx() ",
+      "type": "com.govpro.config.GovproProperties$Metrics$Jmx"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics",
+      "name": "govpro.metrics.logs",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics.Logs getLogs() ",
+      "type": "com.govpro.config.GovproProperties$Metrics$Logs"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics",
+      "name": "govpro.metrics.logs",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics.Logs getLogs() ",
+      "type": "com.govpro.config.GovproProperties$Metrics$Logs"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics",
+      "name": "govpro.metrics.prometheus",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics.Prometheus getPrometheus() ",
+      "type": "com.govpro.config.GovproProperties$Metrics$Prometheus"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics",
+      "name": "govpro.metrics.prometheus",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Metrics.Prometheus getPrometheus() ",
+      "type": "com.govpro.config.GovproProperties$Metrics$Prometheus"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.security",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security getSecurity() ",
+      "type": "com.govpro.config.GovproProperties$Security"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security",
+      "name": "govpro.security.authentication",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.Authentication getAuthentication() ",
+      "type": "com.govpro.config.GovproProperties$Security$Authentication"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security",
+      "name": "govpro.security.authentication",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.Authentication getAuthentication() ",
+      "type": "com.govpro.config.GovproProperties$Security$Authentication"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication",
+      "name": "govpro.security.authentication.jwt",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.Authentication.Jwt getJwt() ",
+      "type": "com.govpro.config.GovproProperties$Security$Authentication$Jwt"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication",
+      "name": "govpro.security.authentication.jwt",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.Authentication.Jwt getJwt() ",
+      "type": "com.govpro.config.GovproProperties$Security$Authentication$Jwt"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication",
+      "name": "govpro.security.authentication.oauth",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.Authentication.Oauth getOauth() ",
+      "type": "com.govpro.config.GovproProperties$Security$Authentication$Oauth"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication",
+      "name": "govpro.security.authentication.oauth",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.Authentication.Oauth getOauth() ",
+      "type": "com.govpro.config.GovproProperties$Security$Authentication$Oauth"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security",
+      "name": "govpro.security.client-authorization",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.ClientAuthorization getClientAuthorization() ",
+      "type": "com.govpro.config.GovproProperties$Security$ClientAuthorization"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security",
+      "name": "govpro.security.client-authorization",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.ClientAuthorization getClientAuthorization() ",
+      "type": "com.govpro.config.GovproProperties$Security$ClientAuthorization"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security",
+      "name": "govpro.security.remember-me",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.RememberMe getRememberMe() ",
+      "type": "com.govpro.config.GovproProperties$Security$RememberMe"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security",
+      "name": "govpro.security.remember-me",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Security.RememberMe getRememberMe() ",
+      "type": "com.govpro.config.GovproProperties$Security$RememberMe"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.social",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Social getSocial() ",
+      "type": "com.govpro.config.GovproProperties$Social"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties",
+      "name": "govpro.swagger",
+      "sourceMethod": "public com.govpro.config.GovproProperties.Swagger getSwagger() ",
+      "type": "com.govpro.config.GovproProperties$Swagger"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Async",
+      "name": "govpro.async.core-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Async",
+      "name": "govpro.async.core-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Async",
+      "name": "govpro.async.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Async",
+      "name": "govpro.async.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Async",
+      "name": "govpro.async.queue-capacity",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Async",
+      "name": "govpro.async.queue-capacity",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Ehcache",
+      "name": "govpro.cache.ehcache.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Ehcache",
+      "name": "govpro.cache.ehcache.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Ehcache",
+      "name": "govpro.cache.ehcache.time-to-live-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Ehcache",
+      "name": "govpro.cache.ehcache.time-to-live-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Hazelcast",
+      "name": "govpro.cache.hazelcast.backup-count",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Hazelcast",
+      "name": "govpro.cache.hazelcast.backup-count",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Hazelcast",
+      "name": "govpro.cache.hazelcast.time-to-live-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Hazelcast",
+      "name": "govpro.cache.hazelcast.time-to-live-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.config-file",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.config-file",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Distributed",
+      "name": "govpro.cache.infinispan.distributed.instance-count",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Distributed",
+      "name": "govpro.cache.infinispan.distributed.instance-count",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Distributed",
+      "name": "govpro.cache.infinispan.distributed.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Distributed",
+      "name": "govpro.cache.infinispan.distributed.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Distributed",
+      "name": "govpro.cache.infinispan.distributed.time-to-live-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Distributed",
+      "name": "govpro.cache.infinispan.distributed.time-to-live-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Local",
+      "name": "govpro.cache.infinispan.local.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Local",
+      "name": "govpro.cache.infinispan.local.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Local",
+      "name": "govpro.cache.infinispan.local.time-to-live-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Local",
+      "name": "govpro.cache.infinispan.local.time-to-live-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Replicated",
+      "name": "govpro.cache.infinispan.replicated.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Replicated",
+      "name": "govpro.cache.infinispan.replicated.max-entries",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Replicated",
+      "name": "govpro.cache.infinispan.replicated.time-to-live-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan$Replicated",
+      "name": "govpro.cache.infinispan.replicated.time-to-live-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.stats-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Cache$Infinispan",
+      "name": "govpro.cache.infinispan.stats-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway",
+      "name": "govpro.gateway.authorized-microservices-endpoints",
+      "type": "java.util.Map<java.lang.String,java.util.List<java.lang.String>>"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway",
+      "name": "govpro.gateway.authorized-microservices-endpoints",
+      "type": "java.util.Map<java.lang.String,java.util.List<java.lang.String>>"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway$RateLimiting",
+      "name": "govpro.gateway.rate-limiting.duration-in-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway$RateLimiting",
+      "name": "govpro.gateway.rate-limiting.duration-in-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway$RateLimiting",
+      "name": "govpro.gateway.rate-limiting.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway$RateLimiting",
+      "name": "govpro.gateway.rate-limiting.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway$RateLimiting",
+      "name": "govpro.gateway.rate-limiting.limit",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Gateway$RateLimiting",
+      "name": "govpro.gateway.rate-limiting.limit",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Http$Cache",
+      "name": "govpro.http.cache.time-to-live-in-days",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Http$Cache",
+      "name": "govpro.http.cache.time-to-live-in-days",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Http",
+      "name": "govpro.http.version",
+      "description": "HTTP version, must be \"V_1_1\" (for HTTP\/1.1) or V_2_0 (for (HTTP\/2)",
+      "type": "com.govpro.config.GovproProperties$Http$Version"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Http",
+      "name": "govpro.http.version",
+      "description": "HTTP version, must be \"V_1_1\" (for HTTP\/1.1) or V_2_0 (for (HTTP\/2)",
+      "type": "com.govpro.config.GovproProperties$Http$Version"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$Logstash",
+      "name": "govpro.logging.logstash.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$Logstash",
+      "name": "govpro.logging.logstash.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$Logstash",
+      "name": "govpro.logging.logstash.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$Logstash",
+      "name": "govpro.logging.logstash.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$Logstash",
+      "name": "govpro.logging.logstash.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$Logstash",
+      "name": "govpro.logging.logstash.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$Logstash",
+      "name": "govpro.logging.logstash.queue-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$Logstash",
+      "name": "govpro.logging.logstash.queue-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$SpectatorMetrics",
+      "name": "govpro.logging.spectator-metrics.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Logging$SpectatorMetrics",
+      "name": "govpro.logging.spectator-metrics.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Mail",
+      "name": "govpro.mail.base-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Mail",
+      "name": "govpro.mail.base-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Mail",
+      "name": "govpro.mail.from",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Mail",
+      "name": "govpro.mail.from",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Graphite",
+      "name": "govpro.metrics.graphite.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Graphite",
+      "name": "govpro.metrics.graphite.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Graphite",
+      "name": "govpro.metrics.graphite.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Graphite",
+      "name": "govpro.metrics.graphite.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Graphite",
+      "name": "govpro.metrics.graphite.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Graphite",
+      "name": "govpro.metrics.graphite.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Graphite",
+      "name": "govpro.metrics.graphite.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Graphite",
+      "name": "govpro.metrics.graphite.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Jmx",
+      "name": "govpro.metrics.jmx.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Jmx",
+      "name": "govpro.metrics.jmx.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Logs",
+      "name": "govpro.metrics.logs.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Logs",
+      "name": "govpro.metrics.logs.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Prometheus",
+      "name": "govpro.metrics.prometheus.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Prometheus",
+      "name": "govpro.metrics.prometheus.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Prometheus",
+      "name": "govpro.metrics.prometheus.endpoint",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Metrics$Prometheus",
+      "name": "govpro.metrics.prometheus.endpoint",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Jwt",
+      "name": "govpro.security.authentication.jwt.secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Jwt",
+      "name": "govpro.security.authentication.jwt.secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Jwt",
+      "name": "govpro.security.authentication.jwt.token-validity-in-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Jwt",
+      "name": "govpro.security.authentication.jwt.token-validity-in-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Jwt",
+      "name": "govpro.security.authentication.jwt.token-validity-in-seconds-for-remember-me",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Jwt",
+      "name": "govpro.security.authentication.jwt.token-validity-in-seconds-for-remember-me",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Oauth",
+      "name": "govpro.security.authentication.oauth.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Oauth",
+      "name": "govpro.security.authentication.oauth.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Oauth",
+      "name": "govpro.security.authentication.oauth.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Oauth",
+      "name": "govpro.security.authentication.oauth.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Oauth",
+      "name": "govpro.security.authentication.oauth.token-validity-in-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$Authentication$Oauth",
+      "name": "govpro.security.authentication.oauth.token-validity-in-seconds",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$ClientAuthorization",
+      "name": "govpro.security.client-authorization.access-token-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$ClientAuthorization",
+      "name": "govpro.security.client-authorization.access-token-uri",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$ClientAuthorization",
+      "name": "govpro.security.client-authorization.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$ClientAuthorization",
+      "name": "govpro.security.client-authorization.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$ClientAuthorization",
+      "name": "govpro.security.client-authorization.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$ClientAuthorization",
+      "name": "govpro.security.client-authorization.client-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$ClientAuthorization",
+      "name": "govpro.security.client-authorization.token-service-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$ClientAuthorization",
+      "name": "govpro.security.client-authorization.token-service-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$RememberMe",
+      "name": "govpro.security.remember-me.key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Security$RememberMe",
+      "name": "govpro.security.remember-me.key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Social",
+      "name": "govpro.social.redirect-after-sign-in",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Social",
+      "name": "govpro.social.redirect-after-sign-in",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.contact-email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.contact-email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.contact-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.contact-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.contact-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.contact-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.default-include-pattern",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.default-include-pattern",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.description",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.description",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.license",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.license",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.license-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.license-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.terms-of-service-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.terms-of-service-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.title",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.title",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.version",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.govpro.config.GovproProperties$Swagger",
+      "name": "govpro.swagger.version",
+      "type": "java.lang.String"
+    }
+  ]
+}

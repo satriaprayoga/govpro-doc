@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: govpro-config
+Implementation-Version: 0.0.1
+Built-By: gilang
+Implementation-Vendor-Id: com.govpro
+Build-Jdk: 1.8.0_77
+Implementation-URL: http://projects.spring.io/spring-boot/govpro-confi
+ g/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
