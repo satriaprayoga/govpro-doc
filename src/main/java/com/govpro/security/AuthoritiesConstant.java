@@ -12,6 +12,7 @@ public final class AuthoritiesConstant {
 
     public static final String SYSTEM_ACCOUNT = "system";
     public static final String ANONYMOUS_USER = "anonymoususer";
+    public static final String AUTHORIZATION_HEADER="Authorization";
 
 	
 	private AuthoritiesConstant(){}
