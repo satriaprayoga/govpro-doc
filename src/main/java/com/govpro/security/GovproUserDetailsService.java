@@ -41,7 +41,7 @@ public class GovproUserDetailsService implements UserDetailsService {
 			List<GrantedAuthority> granted=user.getAuthorities().stream()
 					.map(authority->new SimpleGrantedAuthority(authority.getName())).collect(Collectors.toList());
 			return new org.springframework.security.core.userdetails.User(arg0.toLowerCase(), user.getPassword(), granted);
-		}).orElseThrow(()->new UsernameNotFoundException("arg0 is not found"));
+		}).orElseThrow(()->new UsernameNotFoundException("user "+arg0+" is not found"));
 	}
 
 }
